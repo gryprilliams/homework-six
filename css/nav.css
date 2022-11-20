@@ -1,0 +1,31 @@
+nav {
+  height: 93px;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+  background-repeat: no-repeat;
+}
+nav .links {
+  height: 19px;
+  width: auto;
+}
+nav .links a {
+  text-decoration: none;
+  font-family: GillSans;
+  color: black;
+  margin: 9px;
+}
